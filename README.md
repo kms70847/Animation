@@ -14,3 +14,4 @@ Sometimes I like to make computer-generated images.
 ![Zooming T fractal](src/Zooming_Fractals/grid_t.gif)  
 ![Zooming koch curve](src/Zooming_Fractals/koch.gif)  
 ![Zooming Sierpinsky Triangle](src/Zooming_Fractals/sierpinsky.gif)  
+![Points moving along centroid paths](src/Centroid_Wave/output.gif)
