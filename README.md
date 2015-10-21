@@ -15,4 +15,5 @@ Sometimes I like to make computer-generated images.
 ![Zooming koch curve](src/Zooming_Fractals/koch.gif)  
 ![Zooming Sierpinsky Triangle](src/Zooming_Fractals/sierpinsky.gif)  
 ![Points moving along centroid paths](src/Centroid_Wave/output.gif)  
+![Bezier Curve](src/Bezier_Trace/output.gif)  
 ![Spiral Clock](src/Spiral_Clock/output.gif)
