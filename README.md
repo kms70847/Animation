@@ -1,3 +1,3 @@
 # Animation
 
-![Space-filling curve](src/growing_space_filling_curve/output.gif)
+![Space-filling curve](src/space_filling_curve/output.gif)
