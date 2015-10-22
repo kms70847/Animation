@@ -2,6 +2,7 @@
 
 Sometimes I like to make computer-generated images.
 
+![Dancing Pendulum^WCircles](src/Dancing_Circles/output.gif)
 ![Trig function plotting](src/Trig_Plotting/output.gif)
 ![Space-filling curve](src/space_filling_curve/output.gif)  
 ![Towers of Hanoi solution](src/hanoi/smooth_hanoi_6.gif)  
