@@ -19,7 +19,7 @@ class Koch(Fractal):
         self.zoom_change = 3
         self.left = Point(0,0)
         self.right = Point(1,0)
-        self.foci = [midpoint(self.left, self.right) + Point(0, math.tan(from_degrees(60))/6)]
+        self.foci = [Point(0.5, 1)]
     def draw(self, im_draw, bbox):
         def koch(start, end, depth):
             if depth == 1:
@@ -38,4 +38,6 @@ class Koch(Fractal):
                 for start, end in zip(points, points[1:]):
                     koch(start, end, depth-1)
         start, end = self.rebased(self.left, bbox), self.rebased(self.right, bbox)
-        koch(start, end, 6)
+        a, b, c = [self.rebased(p, bbox) for p in (self.left, self.foci[0], self.right)]
+        koch(a, b, 6)
+        koch(b, c, 6)
