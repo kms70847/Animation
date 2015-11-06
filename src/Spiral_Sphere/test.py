@@ -74,7 +74,6 @@ def make_frame(f):
     margin = 50
     to_screen = lambda s: int(((s+1)/2.0)*(size-margin*2)) + margin
 
-    points = [planar_rotated(p, math.radians(f*360/longitude_resolution), "y") for p in points]
     points = [planar_rotated(p, math.radians(-45), "z") for p in points]
     points = [planar_rotated(p, math.radians(45), "y") for p in points]
 
