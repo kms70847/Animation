@@ -65,8 +65,8 @@ def make_frame(f):
 
             y = radius * sin(iota)
             #adding iota in these next two lines causes each lattitudinal ring to be rotated w.r.t its neighbors
-            x = radius * cos(iota) * cos(theta+iota)
-            z = radius * cos(iota) * sin(theta+iota)
+            x = radius * cos(iota) * cos(theta+iota*4)
+            z = radius * cos(iota) * sin(theta+iota*4)
 
             points.append(Point(x,y,z))
 
