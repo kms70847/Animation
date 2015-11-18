@@ -2,6 +2,7 @@
 
 Sometimes I like to make computer-generated images.
 
+![Turning Torus](scr/Turning_Torus/output.gif)
 ![Spiral Sphere](src/Spiral_Sphere/output.gif)
 ![Moire Starburst](src/Moire_Starburst/output.gif)
 ![Seven Days](src/Decoherent_Ring/output.gif)  
