@@ -2,6 +2,7 @@
 
 Sometimes I like to make computer-generated images.
 
+![Expanding Lattice](src/Expanding_Lattice/output.gif)
 ![Continuous Penrose Growth](src/Continuous_Penrose/output.gif)
 ![Rotating Chessboard](src/Rotating_Chessboard/output.gif)
 ![Turning Torus](src/Turning_Torus/output.gif)  
