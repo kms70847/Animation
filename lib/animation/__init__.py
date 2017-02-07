@@ -39,8 +39,7 @@ def make_gif(imgs, **kwargs):
         img.save("img_{:0{padding}}.png".format(i, padding=num_digits))
 
     #create gif
-    #cmd = "imgconvert -delay {} img_*.png -layers optimize output.gif".format(delay)
-    cmd = ["imgconvert", "-delay", str(delay), "img_*.png", "-layers", "optimize",  "output.gif"]
+    cmd = ["magick", "convert", "-delay", str(delay), "img_*.png", "-layers", "optimize",  "output.gif"]
     subprocess.call(cmd)
 
     #move gif out of temp directory
