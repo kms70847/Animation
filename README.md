@@ -2,7 +2,7 @@
 
 Sometimes I like to make computer-generated images.
 
-![Echo Chamber](src/Echo Chamber/output.gif)
+![Echo Chamber](src/Echo_Chamber/output.gif)
 ![3D Dragon](src/3D_Dragon/output.gif)  
 ![Infinite Tilespin](src/Infinite_Tilespin/output.gif)  
 ![Bistable Cube](src/Bistable_Cube/output.gif)  
